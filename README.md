@@ -4,7 +4,7 @@ Based on atom-timestamp with some adjustments to reflect the details
 of applying the stamp, and to permit getting a one-off stamp for the
 date of first wrting a file
 
-Update timestamp comments like `Time-stamp: <Jun 02 2006>`, `Time-stamp: <2006-01-02 15:04:05>` to current date/time
+Update timestamp comments like `Written: Jun 02 2006`, `Last changes: 2006-01-02 15:04:05 by foo (bar@foo.bar)` to current date/time
 
 This package uses the Luxon library (https://moment.github.io/luxon/#/?id=luxon)
 
