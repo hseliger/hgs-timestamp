@@ -1,0 +1,17 @@
+{
+  "name": "hgs-timestamp",
+  "main": "./lib/hgs-timestamp",
+  "version": "0.1.0",
+  "description": "Update timestamp comment",
+  "keywords": [
+    "timestamp"
+  ],
+  "repository": "https://github.com/hselig-github/hgs-timestamp",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "luxon": "^2.3.0"
+  }
+}
