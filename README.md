@@ -12,13 +12,16 @@ This package uses the Luxon library (https://moment.github.io/luxon/#/?id=luxon)
 
 ### Settings
 
-* `Timestamp Prefix`, `Timestamp Suffix` - Regular expression pattern for timestamp prefix/suffix.
+* Timestamp Prefix: prefix used to find line with timestamp for last changes. The line will be changed to the end of line, so make sure nothing is on that line that should be kept! 
+* First Timestamp Prefix: prefix used to find line with timestamp when first saving the file (when written). The line will be changed to the end of line, so make sure nothing is on that line that should be kept! 
+* Timestamp Suffix: text added to the timestamp, such as "by username (email)"
+* Use standard or custom settings: easily choose an ISO or locale based timestamp, or choose custom and customize below
+* Timestamp format: used Luxon library, so codes can be found here: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
+* Scope selector: usually something like "comments", to make sure we're not putting the timestamp right into code
+* Number of lines: only seach n lines from top of file, so make quicker and to prevent erraneously placed timestamps
+* Auto-run update on save: will automatically search for timestamps and update whenever a file is saved.
 
-**UPDATE THIS**
-
-* `Timestamp Formats` - Format-string for parsing/updating timestamp. Use [Moment.js format](http://momentjs.com/docs/#/displaying/format/). Time zone tokens (`z`, `zz`) and localized formats (`L`, `l`, ...) do not work.
-* `Scope Selector` - Regular expression pattern for [scope name](http://flight-manual.atom.io/behind-atom/sections/scoped-settings-scopes-and-scope-descriptors/) in syntax. By default, atom-timestamp only works in comments in syntax or plain text file.
-* `Number Of Lines` - Number of lines from the beginning to search timestamp comments.
+Default keybinding on shift-ctrl-h
 
 ### Commands
 
