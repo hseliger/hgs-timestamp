@@ -7,7 +7,7 @@
     "timestamp"
   ],
   "repository": "https://github.com/hselig/hgs-timestamp",
-  "license": "MIT",
+  "license": "GPLv3",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
