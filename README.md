@@ -8,7 +8,7 @@ Update timestamp comments like `Written: Jun 02 2006`, `Last changes: 2006-01-02
 
 This package uses the Luxon library (https://moment.github.io/luxon/#/?id=luxon)
 
-**Note that this is a package addressing a personal need of mine. I do not have the capacity to make the a public "release" or to actively maintain it. So, feel free to copy, fork, and use at your own risk.**
+**Note that this is a package addressing a personal need of mine. I do not have the capacity to make a public "release" or to actively maintain it. So, feel free to copy, fork, and use at your own risk.**
 
 ## Usage
 
